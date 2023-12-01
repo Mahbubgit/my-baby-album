@@ -15,8 +15,16 @@
   <link rel="stylesheet" href="resources/css/style.css" />
   <link rel="stylesheet" href="resources/css/owl.css" />
   <link rel="stylesheet" href="resources/css/lightbox.css" />
+  <link rel="stylesheet" href="resources/css/switchlanguage.css" />
 </head>
 
+
+<style>
+
+  #switch_right_view {
+          display: none;
+          }
+</style>
 <body>
 
 
@@ -31,15 +39,21 @@
             <a href="#"><img src="resources/images/0.jpg" alt="Profile Baby Image" width="100%" /></a>
           </div>
           <div class="author-content">
-            <h4>Baby - Piece of Heart.</h4>
-            <span>Every parents have a piece of heart outside their body. <br> It's their <b>BABY</b>.</span>
+            <h4 class="en_USA_lan">Baby - Piece of Heart.</h4>
+            <h4 class="bn_BD_lan">সন্তান - হৃদয়ের টুকরা</h4>
+            <span class="en_USA_lan">Every parents have a piece of heart outside their body. <br> It's their <b>BABY</b>.</span>
+            <span class="bn_BD_lan">প্রত্যেক বাবা-মায়ের শরীরের বাইরে এক টুকরো হৃদয় থাকে| <br> এটা তাদের <b>বাচ্চা</b>.</span>
           </div>
           <nav class="main-nav" role="navigation">
             <ul class="main-menu">
-              <li><a href="#section0">Home</a></li>
-              <li><a href="#section1">Intro</a></li>
-              <li><a href="#section2">Features</a></li>
-              <li><a href="#section3">Gallery</a></li>
+              <li><a class="en_USA_lan" href="#section0">Home</a></li>
+              <li><a class="bn_BD_lan" href="#section0">হোম</a></li>
+              <li><a class="en_USA_lan" href="#section1">Intro</a></li>
+              <li><a class="bn_BD_lan" href="#section1">ভূমিকা</a></li>
+              <li><a class="en_USA_lan" href="#section2">Features</a></li>
+              <li><a class="bn_BD_lan" href="#section2">বৈশিষ্ট্য</a></li>
+              <li><a class="en_USA_lan" href="#section3">Gallery</a></li>
+              <li><a class="bn_BD_lan" href="#section3">গ্যালারি</a></li>
             </ul>
           </nav>
           <div class="social-network">
@@ -62,8 +76,8 @@
             </ul>
           </div>
           <div class="copyright-text">
-            <p>Copyright @ 2023<br>
-              Design: S.M. Mahbubur Rahman</p>
+            <p class="en_USA_lan">Copyright @ 2023<br> Design: S.M. Mahbubur Rahman</p>
+            <p class="bn_BD_lan">কপিরাইট @ ২০২৩<br> নকশা: এস. এম. মাহবুবুর রহমান</p>
           </div>
         </div>
       </div>
@@ -84,26 +98,42 @@
           <img src="resources/images/1.jpg" alt="Birthday Image" />
         </div>
         <div class="section-heading">
-          <h2>Introducing Aayan</h2>
+          <!-- test -->
+            <div>
+              <div class="switch-field">
+                  <input type="radio" id="switch_left" name="switch_2" value="yes" checked />
+                  <label for="switch_left"> English </label>
+                  <input type="radio" id="switch_right" name="switch_2" value="no" />
+                  <label for="switch_right"> বাংলা </label>
+              </div>
+          </div>
+          </br>
+        <!-- test -->
+          <!-- <div class="white-button">
+            <a href="#">বাংলা</a>
+          </div> -->
+          <h2 class="en_USA_lan">Introducing Aayan</h2>
+          <h2 class="bn_BD_lan">আয়ানের পরিচয় </h2>
           <div class="line-dec"></div>
-          <span>Aayan is our only son born on 26th September, 2015. He is growing up like a seedling tree. We, the
-            guardian, are always take care of him. This site is created and dedicated to my son as 'My Baby Album'. It's
-            a customize website build for my only son. Please pray for my son. If you want to build an album like this
-            for your baby, then feel free to contact me. Thank you.</span>
+          <p class="en_USA_lan">
+            Aayan is our only son born on 26th September 2015. He is growing like a small plant. We, the parents, always care about him. I created this site called 'My Baby Album' mainly for my son and I dedicated this site to him. This is a customized website made for my only son. Please pray for my son. If you want to create such a web album for your child, feel free to contact me. Thank you.
+          </p>
+          <p class="bn_BD_lan">
+            আয়ান আমাদের একমাত্র ছেলে যার জন্ম ২৬শে সেপ্টেম্বর, ২০১৫। সে একটি ছোট্ট  চারাগাছের মতই বেড়ে উঠছে। আমরা, অভিভাবক, সবসময় তার যত্ন নেই। 'মাই বেবি অ্যালবাম' নামে এই সাইটটি আমি তৈরি করেছি মূলত আমার ছেলের জন্য  এবং আমি তার জন্য এই সাইটটি উৎসর্গ করলাম। এটি আমার একমাত্র ছেলের জন্য তৈরি করা একটি কাস্টমাইজ ওয়েবসাইট। আমার ছেলের জন্য দোয়া করবেন। আপনি যদি আপনার সন্তানের জন্য এরকম একটি ওয়েব অ্যালবাম তৈরি করতে চান, তাহলে নির্দ্বিধায় আমার সাথে যোগাযোগ করতে পারেন। ধন্যবাদ।
+          </p>
         </div>
         <div class="right-image-post">
           <div class="row">
 
             <div class="col-md-8">
               <div class="left-text">
-                <h4>Growing up of Aayan</h4>
+                <h4 class="en_USA_lan">Growing up of Aayan</h4>
+                <h4 class="bn_BD_lan">আয়ানের বেড়ে উঠা </h4>
                 <div class="line-dec"></div>
-                <p>The growing up of my only son, Aayan, has been an incredible experience for me. Every moment with him
-                  has been an opportunity for me to impart higher education and ethical values. Aayan has grown up to be
-                  a kind and compassionate person with a great sense of humor. He has excelled in school and is one of
-                  the most loyal friends one can have. As his parent, I am always prepared to provide him with all the
-                  opportunities and facilities to help him succeed in life. I hope that as he continues to grow, my only
-                  son will become a respected and healthy individual that everyone looks up to.</p>
+                <p class="en_USA_lan">Growing up my only son Ayaan has been a joyous experience for me. Every moment with him has been an opportunity for me to impart education and moral values. Ian is growing up before my eyes. His mischievousness, playing all day long, all kinds of adhars, arrogance, sleeping innocent face will remain in my memory for the rest of my life. As his parents, we are always ready to provide him with everything good. I hope, in future, he will become a pious, kind and respectable person of the society which will remember him.</p>
+                <p class="bn_BD_lan">
+                  আমার একমাত্র ছেলে আয়ানের বেড়ে ওঠা আমার জন্য একটি আনন্দময়  অভিজ্ঞতা। তার সাথে প্রতিটা মুহূর্ত আমার জন্য শিক্ষা এবং নৈতিক মূল্যবোধ প্রদানের একটি সুযোগ হয়েছে। আয়ান আমার চোখের সামনেই বড় হচ্ছে। তার দুষ্টামি, সারাদিন খেলে বেড়ানো, নানান ধরণের আবদার, অভিমান, ঘুমন্ত নিষ্পাপ মুখটি আমার স্মৃতিতে সারাজীবন স্মরণীয় হয়ে থাকবে। তার পিতামাতা হিসাবে, আমরা সর্বদা তাকে ভালো সমস্ত কিছু সরবরাহ করতে প্রস্তুত। আমি আশা করি, ভবিষ্যতে সে একজন ধার্মিক, সদয় এবং সমাজের সম্মানিত ব্যক্তি হয়ে উঠবে যা তাকে স্মরণীয় করে রাখবে।
+                </p>
                 <!-- <div class="white-button">
                   <a href="#">Read More</a>
                 </div> -->
@@ -128,24 +158,18 @@
 
             <div class="col-md-8">
               <div class="right-text">
-                <h4>Birthday celebration of Aayan</h4>
+                <h4 class="en_USA_lan">Birthday Celebration of Aayan</h4>
+                <h4 class="bn_BD_lan">আয়ানের জন্মদিন উদযাপন</h4>
                 <div class="line-dec"></div>
-                <p>It was a beautiful day as the sun shone brightly, birds chirping and everyone was in a festive mood.
-                  It was Aayan's birthday, and his family and friends had planned a surprise celebration for him.
-
-                  The party was held at his sweet home, which was beautifully decorated with balloons,
-                  streamers, and colorful lights.
-
-                  The table was adorned with a delicious cake, and everyone sang "Happy Birthday" as Aayan made a wish
-                  and blew out the candles.
-
-                  The celebration went on for hours, and everyone had a great time. It was a day filled with love,
-                  laughter, and joy. Aayan felt blessed to have such wonderful people in his life who made his birthday
-                  so special.
-
-                  As the night came to an end, Aayan thanked everyone for making his birthday celebration unforgettable.
-                  It was a day he would always cherish, and he knew that the memories of this celebration would last a
-                  lifetime.</p>
+                <p class="en_USA_lan">It was a beautiful day. The brightness of the morning sun, the chirping of the birds, the festive mood of all -    all seemed to favor the day's celebration. So everyone was in a festive mood. It was Ayan's first birthday and his family and friends had planned a surprise celebration for him on the day.
+                The birthday party was held at his home, which was beautifully decorated with balloons, streamers and colorful lights. A delicious cake was placed on the table. Everyone wished Aayan "Happy Birthday". Our Aayan was looking at everyone in awe. Then we helped him cut the cake and everyone fed him a little cake. The celebration lasted for hours and we all had a great day. The day was filled with laughter, joy and love. Aayan and we thank everyone for making his birthday celebration unforgettable.
+                It was a day that he will always cherish in his mind and these sweet memories will last his long life.
+                </p>
+                  <p class="bn_BD_lan">
+                    এটি একটি সুন্দর দিন ছিল। সকালের সূর্যের উজ্জলতা, পাখিদের কিচিরমিচির শব্দ, সকলের আনন্দ উৎসব মেজাজ - সবই যেন দিনটি উদযাপনের অনুকূলে ছিল। তাই সবাই একটি উৎসব মেজাজে ছিল। এটি ছিল আয়ানের প্রথম জন্মদিন এবং তার পরিবার ও বন্ধুরা তার জন্য দিনটিকে একটি আশ্চর্যজনক উদযাপনের পরিকল্পনা করেছিল।
+                    জন্মদিনের পার্টিটি তার নিজ বাড়িতে অনুষ্ঠিত হয়েছিল, যা বেলুন, স্ট্রীমার এবং রঙিন আলো দিয়ে সুন্দরভাবে সজ্জিত করা হয়েছিল। টেবিলে একটি সুস্বাদু কেক রাখা ছিল। আয়ানকে সবাই "শুভ জন্মদিন" বলে উইশ করল। আমাদের আয়ান অভিভূত হয়ে সবাইকে দেখছিল। তারপর আমরা তাকে কেকটি কাটার জন্য সাহায্য করলাম এবং সবাই একটু করে তাকে কেক খাওয়ালাম। উদযাপনটি ঘন্টা খানিক ধরে চলল এবং সবাই আমরা একটি সুন্দর দিন কাটালাম।  দিনটি ছিল হাসি, আনন্দ আর ভালোবাসায় ভরা। আয়ান এবং আমরা তার জন্মদিন উদযাপনকে অবিস্মরণীয় করে তোলার জন্য সবাইকে ধন্যবাদ জানালাম।
+                    এটি এমন একটি দিন ছিল যা সে তার মনে সর্বদা লালন করবে এবং এই মধুর  স্মৃতিগুলি তার দীর্ঘ জীবন চলার পাথেয় হবে।
+                  </p>
                 <!-- <div class="white-button">
                   <a href="#">Read More</a>
                 </div> -->
@@ -160,60 +184,53 @@
     <section class="section events" data-section="section2">
       <div class="container">
         <div class="section-heading">
-          <h2>Greatest Events</h2>
+          <h2 class="en_USA_lan">Memorable Events</h2>
+          <h2 class="bn_BD_lan">স্মরণীয় ঘটনা</h2>
           <div class="line-dec"></div>
         </div>
         <div class="row">
           <div class="col-md-6">
             <div class="event-item">
-              <!-- <i class="fa fa-area-chart"></i> -->
-
-              <h4>Birthday Celebration</h4>
-              <p>A birthday celebration for a baby is a very special event for any family. It marks the first year of
-                life for the little one and is a time to celebrate their growth and development over the past twelve
-                months. <br>
-
-                A first birthday celebration for a baby is a memorable event for any family. It's a time to
-                come together and celebrate the little one's first year of life and to look forward to the many
-                milestones and adventures that lie ahead.</p>
+              <h4 class="en_USA_lan">First Step Of Walking</h4>
+              <h4 class="bn_BD_lan">হাঁটার প্রথম ধাপ</h4>
+              <p class="en_USA_lan">Your baby's first steps to walking are an important occasion that marks the beginning of their journey to independence. It is a proud and exciting moment for every parent. It is important to provide a safe and supportive environment for your baby as they learn to walk. Don't forget to enjoy this special moment and remember to always encourage your child to learn something new. Cherish every step of your child's journey to independence. 
+              </p>
+              <p class="bn_BD_lan">আপনার শিশুর জন্য হাঁটার প্রথম ধাপ হল একটি গুরুত্বপূর্ণ উপলক্ষ যা তাদের স্বাধীনতার দিকে যাত্রার সূচনা করে। এটি প্রতিটি পিতামাতার জন্য একটি গর্বিত এবং উত্তেজনাপূর্ণ আনন্দঘন মুহূর্ত। আপনার শিশু যখন হাঁটতে শেখে তখন তাদের জন্য একটি নিরাপদ এবং সহায়ক পরিবেশ প্রদান করা গুরুত্বপূর্ণ। এই বিশেষ মুহূর্তটি উপভোগ করতে ভুলবেন না এবং মনে রাখবেন নতুন কিছু শেখার জন্য আপনার শিশুকে সবসময় উৎসাহিত করবেন। স্বাধীনতার দিকে আপনার শিশুর যাত্রার প্রতিটি পদক্ষেপকে লালন করুন।
+              </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="event-item">
-              <!-- <i class="fa fa-check-square-o"></i> -->
-              <h4>First Step of Walking</h4>
-              <p>The first step of walking for your baby is a momentous occasion that marks the beginning of their
-                journey towards independence. It is a proud and exciting moment for parents, and it is important to
-                provide a safe and supportive environment for your baby as they learn to walk. Remember to enjoy this
-                special moment and cherish each step of your baby's journey towards independence. </p>
+              <h4 class="en_USA_lan">Learning With Books</h4>
+              <h4 class="bn_BD_lan">বই দিয়ে শেখা</h4>
+              <p class="en_USA_lan">Learning with books is an excellent way to support your baby's growth and mental development. By choosing  age-appropriate books, creating a comfortable reading environment and engaging in reading experiences with good books, you can help your child develop a lifelong love of learning and a strong foundation for future academic success.
+              </p>
+              <p class="bn_BD_lan">
+                বইয়ের মাধ্যমে শেখা আপনার শিশুর বৃদ্ধি এবং মানসিক বিকাশকে সমর্থন করার একটি চমৎকার উপায়। বয়স-উপযুক্ত বই বাছাই করে, একটি আরামদায়ক পড়ার পরিবেশ তৈরি করে এবং ভালো বইয়ের সাথে পড়ার অভিজ্ঞতায় জড়িত থাকার মাধ্যমে, আপনি আপনার সন্তানকে শেখার প্রতি আজীবন ভালবাসা এবং ভবিষ্যতের একাডেমিক সাফল্যের জন্য একটি শক্তিশালী ভিত্তি গড়ে তুলতে সাহায্য করতে পারেন।
+              </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="event-item">
-              <!-- <i class="fa fa-question-circle"></i> -->
-              <h4>Learning with books</h4>
-              <p>Learning with books is an excellent way to support your baby's growth and development. By choosing
-                age-appropriate books, creating a comfortable reading environment, and engaging in shared reading
-                experiences, you can help your child develop a lifelong love of learning and a strong foundation for
-                future academic success. </p>
+              <h4 class="en_USA_lan">First Day At School</h4>
+              <h4 class="bn_BD_lan">স্কুলের প্রথম দিন</h4>
+              <p class="en_USA_lan">The first day of school is a memorable day for every child. This day is an exciting and emotional milestone for both parents and children. As a parent, you want to make sure your child feels prepared, confident and excited for their big day. Start talking to your child about school early.<br> Explain what school is, what they can do there, and how it will be different from being at home.
+              </p>
+              <p class="bn_BD_lan">
+                স্কুলের প্রথম দিনটি প্রতিটি সন্তানের জন্যই একটি স্মরণীয় দিন। এই দিনটি পিতামাতা এবং সন্তান উভয়ের জন্যই একটি উত্তেজনাপূর্ণ এবং মানসিক মাইলফলক। একজন অভিভাবক হিসেবে, আপনি নিশ্চিত করতে চান যে আপনার সন্তান তাদের বড় দিনের জন্য প্রস্তুত, আত্মবিশ্বাসী এবং উত্তেজিত বোধ করছে। আপনার সন্তানের সাথে আগে থেকেই স্কুল সম্পর্কে কথা বলা শুরু করুন। <br> স্কুল কি, তারা সেখানে কী করতে পারে এবং কীভাবে এটি বাড়িতে থাকা থেকে আলাদা হবে তা ব্যাখ্যা করুন।
+              </p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="event-item">
-              <!-- <i class="fa fa-support"></i> -->
-              <h4>First Day of School</h4>
-              <p>The first day of school is an exciting and emotional milestone for both parents and children. As a
-                parent, you want to make sure your child feels prepared, confident, and excited for their big day.Start
-                talking about school with your child well in advance. Explain what school is, what they can expect to do
-                there, and how it will be different from being at home.</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="event-item">
-              <h4>Learning by Travel</h4>
-              <p>Traveling can be an enriching experience for people of all ages, including babies. Babies are
-                constantly learning about the world around them, and travel provides them with new sights, sounds,
-                smells, and experiences that can help them develop their cognitive and sensory skills.</p>
+              <h4 class="en_USA_lan">Learning With Travel</h4>
+              <h4 class="bn_BD_lan">ভ্রমণের সাথে শেখা</h4>
+              <p class="en_USA_lan">
+                Traveling can be a great way to expand your baby's knowledge and gain new perspectives.Cultural Immersion, Historical Exploration, New Language Learning, Nature and Geography, Interactions with Diverse People, Reading Local Literature, Museum and Art Exploration, Attend Local Events and Festivals- thus traveling can be an enriching experience for people of all ages, including babies. Babies are constantly learning about the world around them and travel provides them with new sights, sounds, smells, and experiences that can help them to develop their personal and intellectual growth.
+              </p>
+              <p class="bn_BD_lan">
+                ভ্রমণ আপনার শিশুর জ্ঞান প্রসারিত করার এবং নতুন দৃষ্টিভঙ্গি অর্জনের একটি দুর্দান্ত উপায় হতে পারে৷ সাংস্কৃতিক নিমজ্জন, ঐতিহাসিক অন্বেষণ, নতুন ভাষা শিক্ষা, প্রকৃতি এবং ভূগোল, বিভিন্ন মানুষের সাথে মিথস্ক্রিয়া, স্থানীয় সাহিত্য পড়া, যাদুঘর এবং শিল্প অন্বেষণ, স্থানীয় অনুষ্ঠান এবং উত্সবে যোগদান- এইভাবে ভ্রমণ শিশু সহ সকল বয়সের মানুষের জন্য একটি সমৃদ্ধ অভিজ্ঞতা হতে পারে। শিশুরা ক্রমাগত তাদের চারপাশের বিশ্ব সম্পর্কে শিখছে এবং ভ্রমণ তাদের নতুন দর্শনীয় স্থান, শব্দ, গন্ধ এবং অভিজ্ঞতা প্রদান করে যা তাদের ব্যক্তিগত এবং বুদ্ধিবৃত্তিক বৃদ্ধির বিকাশে সাহায্য করতে পারে।
+              </p>
             </div>
           </div>
         </div>
@@ -223,22 +240,33 @@
     <section class="section my-work" data-section="section3">
       <div class="container">
         <div class="section-heading">
-          <h2>Gallery</h2>
+          <h2 class="en_USA_lan">Photo Gallery</h2>
+          <h2 class="bn_BD_lan">ফটো গ্যালারি</h2>
           <div class="line-dec"></div>
         </div>
         <div class="row">
           <div class="isotope-wrapper">
             <form class="isotope-toolbar">
               <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
-                <span>all</span></label>
+                <span class="en_USA_lan">all</span>
+                <span class="bn_BD_lan">সব</span>
+              </label>
               <label><input type="radio" data-type="birthday" name="isotope-filter" />
-                <span>Birth Day</span></label>
+                <span class="en_USA_lan">Birth Day</span>
+                <span class="bn_BD_lan">জন্মদিন</span>
+              </label>
               <label><input type="radio" data-type="funny" name="isotope-filter" />
-                <span>Funny Day</span></label>
+                <span class="en_USA_lan">Funny Day</span>
+                <span class="bn_BD_lan">মজার দিন</span>
+              </label>
               <label><input type="radio" data-type="family" name="isotope-filter" />
-                <span>Family Day</span></label>
+                <span class="en_USA_lan">Family Day</span>
+                <span class="bn_BD_lan">পারিবারিক দিন</span>
+              </label>
               <label><input type="radio" data-type="video" name="isotope-filter" />
-                <span>Video</span></label>
+                <span class="en_USA_lan">Video</span>
+                <span class="bn_BD_lan">ভিডিও</span>
+              </label>
             </form>
 
             <div class="isotope-box">
@@ -248,8 +276,10 @@
                   <figcaption>
                     <a href="resources/images/12.jpg" data-lightbox="image-1" data-title="With Family"><i
                         class="fa fa-search"></i></a>
-                    <h4>With Family</h4>
-                    <span>It's family day</span>
+                    <h4 class="en_USA_lan">With Family</h4>
+                    <h4 class="bn_BD_lan">পরিবারের সাথে</h4>
+                    <span class="en_USA_lan">It's family day</span>
+                    <span class="bn_BD_lan">এটা পরিবারের দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -267,8 +297,10 @@
                   <figcaption>
                     <a href="resources/images/4.JPG" data-lightbox="image-1" data-title="Funny Baby"><i
                         class="fa fa-search"></i></a>
-                    <h4>Funny Baby</h4>
-                    <span>It's a funny day!</span>
+                    <h4 class="en_USA_lan">Funny Baby</h4>
+                    <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
+                    <span class="en_USA_lan">It's a funny day!</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন!</span>
                   </figcaption>
                 </figure>
               </div>
@@ -279,8 +311,10 @@
                   <figcaption>
                     <a href="resources/images/1.jpg" data-lightbox="image-1" data-title="Birthday Boy"><i
                         class="fa fa-search"></i></a>
-                    <h4>Birthday Boy</h4>
-                    <span>Birthday Enjoy</span>
+                    <h4 class="en_USA_lan">Birthday Fun</h4>
+                    <h4 class="bn_BD_lan">জন্মদিনের মজা</h4>
+                    <span class="en_USA_lan">Birthday Enjoy</span>
+                    <span class="bn_BD_lan">জন্মদিন উপভোগ</span>
                   </figcaption>
                 </figure>
               </div>
@@ -291,8 +325,10 @@
                   <figcaption>
                     <a href="resources/images/11.jpg" data-lightbox="image-1" data-title="Family Time"><i
                         class="fa fa-search"></i></a>
-                    <h4>Family Time</h4>
-                    <span>Love with family..</span>
+                    <h4 class="en_USA_lan">Family Time</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সময়</h4>
+                    <span class="en_USA_lan">Family Love..</span>
+                    <span class="bn_BD_lan">পরিবার এবং ভালবাসা..</span>
                   </figcaption>
                 </figure>
               </div>
@@ -309,8 +345,10 @@
                   <figcaption>
                     <a href="resources/images/5.jpg" data-lightbox="image-1" data-title="Funny Baby">
                       <i class="fa fa-search"></i></a>
-                    <h4>Funny Baby</h4>
-                    <span>It's a funny day.</span>
+                    <h4 class="en_USA_lan">Funny Baby</h4>
+                    <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
+                    <span class="en_USA_lan">It's a funny day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -321,8 +359,10 @@
                   <figcaption>
                     <a href="resources/images/2.JPG" data-lightbox="image-1" data-title="Birthday enjoy"><i
                         class="fa fa-search"></i></a>
-                    <h4>Birthday enjoy</h4>
-                    <span>Enjoy at birthday.</span>
+                    <h4 class="en_USA_lan">Birthday Enjoy</h4>
+                    <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
+                    <span class="en_USA_lan">Birthday Fun.</span>
+                    <span class="bn_BD_lan">জন্মদিনের মজা</span>
                   </figcaption>
                 </figure>
               </div>
@@ -333,8 +373,10 @@
                   <figcaption>
                     <a href="resources/images/6.jpg" data-lightbox="image-1" data-title="Funny Baby">
                       <i class="fa fa-search"></i></a>
-                    <h4>Funny Baby</h4>
-                    <span>It's a funny day.</span>
+                    <h4 class="en_USA_lan">Funny Baby</h4>
+                    <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
+                    <span class="en_USA_lan">It's a funny day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -345,8 +387,10 @@
                   <figcaption>
                     <a href="resources/images/10.jpg" data-lightbox="image-1" data-title="Family Care"><i
                         class="fa fa-search"></i></a>
-                    <h4>Family Care</h4>
-                    <span>It's family day!</span>
+                    <h4 class="en_USA_lan">Family Care</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক যত্ন</h4>
+                    <span class="en_USA_lan">It's Family Day!</span>
+                    <span class="bn_BD_lan">এটা পরিবারের দিন!</span>
                   </figcaption>
                 </figure>
               </div>
@@ -357,8 +401,10 @@
                   <figcaption>
                     <a href="resources/images/9.jpg" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
-                    <h4>Funny day</h4>
-                    <span>It's a funny day.</span>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -369,8 +415,10 @@
                   <figcaption>
                     <a href="resources/images/3.jpg" data-lightbox="image-1" data-title="Birthday enjoy"><i
                         class="fa fa-search"></i></a>
-                    <h4>Birthday enjoy</h4>
-                    <span>Enjoy at birthday.</span>
+                    <h4 class="en_USA_lan">Birthday Enjoy</h4>
+                    <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
+                    <span class="en_USA_lan">Birthday Fun</span>
+                    <span class="bn_BD_lan">জন্মদিনের মজা</span>
                   </figcaption>
                 </figure>
               </div>
@@ -381,8 +429,10 @@
                   <figcaption>
                     <a href="resources/images/14.jpg" data-lightbox="image-1" data-title="Family Care"><i
                         class="fa fa-search"></i></a>
-                    <h4>Family Tour</h4>
-                    <span>It's family tour!</span>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Family Tour Fun!</span>
+                    <span class="bn_BD_lan">পারিবারিক ভ্রমণ মজা!</span>
                   </figcaption>
                 </figure>
               </div>
@@ -393,8 +443,10 @@
                   <figcaption>
                     <a href="resources/images/7.JPG" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
-                    <h4>Funny day</h4>
-                    <span>It's a funny day.</span>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -405,8 +457,10 @@
                   <figcaption>
                     <a href="resources/images/13.jpg" data-lightbox="image-1" data-title="Family Love"><i
                         class="fa fa-search"></i></a>
-                    <h4>Family Care</h4>
-                    <span>It's family day!</span>
+                    <h4 class="en_USA_lan">Family Care</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক যত্ন</h4>
+                    <span class="en_USA_lan">It's Family Day!</span>
+                    <span class="bn_BD_lan">এটা পরিবারের দিন!</span>
                   </figcaption>
                 </figure>
               </div>
@@ -417,8 +471,10 @@
                   <figcaption>
                     <a href="resources/images/8.jpg" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
-                    <h4>Funny day</h4>
-                    <span>It's a funny day.</span>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
                   </figcaption>
                 </figure>
               </div>
@@ -439,6 +495,8 @@
   <script src="resources/js/owl-carousel.js"></script>
   <script src="resources/js/lightbox.js"></script>
   <script src="resources/js/custom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <script>
     //according to loftblog tut
     $(".main-menu li:first").addClass("active");
@@ -489,6 +547,22 @@
       checkSection();
     });
   </script>
+
+<script>
+  $(document).ready(function() {
+   $(".bn_BD_lan").hide();
+
+   $("#switch_right").click(function() {
+      $(".en_USA_lan").hide();
+      $(".bn_BD_lan").show();
+   });
+   $("#switch_left").click(function() {
+      $(".en_USA_lan").show();
+      $(".bn_BD_lan").hide();
+   });    
+});
+</script>
+
 </body>
 
 </html>
