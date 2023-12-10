@@ -84,6 +84,12 @@
     </div>
 
     <section class="section" data-section="section0">
+      <div class="switch-field" >
+        <input type="radio" id="switch_left" name="switch_2" value="yes" checked />
+        <label for="switch_left"> English </label>
+        <input type="radio" id="switch_right" name="switch_2" value="no" />
+        <label for="switch_right"> বাংলা </label>
+      </div>
       <div class="container">
         <video autoplay muted loop width="100%">
           <source src="./resources/video/video5.MOV">
@@ -91,27 +97,16 @@
       </div>
 
     </section>
-
+    
     <section class="section about-me" data-section="section1">
       <div class="container">
+        
         <div class="top-header">
           <img src="resources/images/1.jpg" alt="Birthday Image" />
         </div>
+        
         <div class="section-heading">
-          <!-- test -->
-            <div>
-              <div class="switch-field">
-                  <input type="radio" id="switch_left" name="switch_2" value="yes" checked />
-                  <label for="switch_left"> English </label>
-                  <input type="radio" id="switch_right" name="switch_2" value="no" />
-                  <label for="switch_right"> বাংলা </label>
-              </div>
-          </div>
-          </br>
-        <!-- test -->
-          <!-- <div class="white-button">
-            <a href="#">বাংলা</a>
-          </div> -->
+          
           <h2 class="en_USA_lan">Introducing Aayan</h2>
           <h2 class="bn_BD_lan">আয়ানের পরিচয় </h2>
           <div class="line-dec"></div>
@@ -263,18 +258,18 @@
                 <span class="en_USA_lan">Family Day</span>
                 <span class="bn_BD_lan">পারিবারিক দিন</span>
               </label>
-              <label><input type="radio" data-type="video" name="isotope-filter" />
-                <span class="en_USA_lan">Video</span>
-                <span class="bn_BD_lan">ভিডিও</span>
+              <label><input type="radio" data-type="travel" name="isotope-filter" />
+                <span class="en_USA_lan">Travel Day</span>
+                <span class="bn_BD_lan">ভ্ভ্রমণের দিন</span>
               </label>
             </form>
 
             <div class="isotope-box">
               <div class="isotope-item" data-type="family">
                 <figure class="snip1321">
-                  <img src="resources/images/12.jpg" alt="family image" />
+                  <img src="resources/images/familyday/fd1.jpg" alt="family image" />
                   <figcaption>
-                    <a href="resources/images/12.jpg" data-lightbox="image-1" data-title="With Family"><i
+                    <a href="resources/images/familyday/fd1.jpg" data-lightbox="image-1" data-title="With Family"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">With Family</h4>
                     <h4 class="bn_BD_lan">পরিবারের সাথে</h4>
@@ -283,7 +278,21 @@
                   </figcaption>
                 </figure>
               </div>
-<!-- 
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel0.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel0.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              
+              <!-- 
               <div class="isotope-item" data-type="video">
                 <video muted loop width="100%" controls type="video/mp4">
                   <source src="https://www.youtube.com/watch?v=sIFjmn20qO0" type="video/MOV">
@@ -293,9 +302,9 @@
 
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/4.JPG" alt="Funny Image" />
+                  <img src="resources/images/funnyday/fnd1.JPG" alt="Funny Image" />
                   <figcaption>
-                    <a href="resources/images/4.JPG" data-lightbox="image-1" data-title="Funny Baby"><i
+                    <a href="resources/images/funnyday/fnd1.JPG" data-lightbox="image-1" data-title="Funny Baby"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Baby</h4>
                     <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
@@ -304,12 +313,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel1.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel1.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="birthday">
                 <figure class="snip1321">
-                  <img src="resources/images/1.jpg" alt="birthday" />
+                  <img src="resources/images/birthday/bd1.jpg" alt="birthday" />
                   <figcaption>
-                    <a href="resources/images/1.jpg" data-lightbox="image-1" data-title="Birthday Boy"><i
+                    <a href="resources/images/birthday/bd1.jpg" data-lightbox="image-1" data-title="Birthday Boy"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Birthday Fun</h4>
                     <h4 class="bn_BD_lan">জন্মদিনের মজা</h4>
@@ -318,12 +339,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel2.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel2.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="family">
                 <figure class="snip1321">
-                  <img src="resources/images/11.jpg" alt="Family" />
+                  <img src="resources/images/familyday/fd2.jpg" alt="Family" />
                   <figcaption>
-                    <a href="resources/images/11.jpg" data-lightbox="image-1" data-title="Family Time"><i
+                    <a href="resources/images/familyday/fd2.jpg" data-lightbox="image-1" data-title="Family Time"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Family Time</h4>
                     <h4 class="bn_BD_lan">পারিবারিক সময়</h4>
@@ -332,18 +365,124 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel3.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel3.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel4.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel4.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel5.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel5.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel6.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel6.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel7.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel7.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel8.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel8.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel9.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel9.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel10.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel10.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              
+              
+              <!-- 
               <div class="isotope-item" data-type="video">
                 <video muted loop width="100%" controls type="video/mp4">
                   <source src="./resources/video/22.mp4">
                 </video>
-              </div>
+              </div> -->
 
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/5.jpg" alt="Funny" />
+                  <img src="resources/images/funnyday/fnd3.jpg" alt="Funny" />
                   <figcaption>
-                    <a href="resources/images/5.jpg" data-lightbox="image-1" data-title="Funny Baby">
+                    <a href="resources/images/funnyday/fnd3.jpg" data-lightbox="image-1" data-title="Funny Baby">
                       <i class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Baby</h4>
                     <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
@@ -352,12 +491,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel27.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel27.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="birthday">
                 <figure class="snip1321">
-                  <img src="resources/images/2.JPG" alt="Birthday" />
+                  <img src="resources/images/birthday/bd2.JPG" alt="Birthday" />
                   <figcaption>
-                    <a href="resources/images/2.JPG" data-lightbox="image-1" data-title="Birthday enjoy"><i
+                    <a href="resources/images/birthday/bd2.JPG" data-lightbox="image-1" data-title="Birthday enjoy"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Birthday Enjoy</h4>
                     <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
@@ -366,12 +517,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel26.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel26.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/6.jpg" alt="Funny" />
+                  <img src="resources/images/funnyday/fnd4.jpg" alt="Funny" />
                   <figcaption>
-                    <a href="resources/images/6.jpg" data-lightbox="image-1" data-title="Funny Baby">
+                    <a href="resources/images/funnyday/fnd4.jpg" data-lightbox="image-1" data-title="Funny Baby">
                       <i class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Baby</h4>
                     <h4 class="bn_BD_lan">মজার বাচ্চা</h4>
@@ -380,12 +543,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel25.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel25.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="family">
                 <figure class="snip1321">
-                  <img src="resources/images/10.jpg" alt="family" />
+                  <img src="resources/images/familyday/fd3.jpg" alt="family" />
                   <figcaption>
-                    <a href="resources/images/10.jpg" data-lightbox="image-1" data-title="Family Care"><i
+                    <a href="resources/images/familyday/fd4.jpg" data-lightbox="image-1" data-title="Family Care"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Family Care</h4>
                     <h4 class="bn_BD_lan">পারিবারিক যত্ন</h4>
@@ -394,12 +569,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel24.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel24.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/9.jpg" alt="Funny" />
+                  <img src="resources/images/funnyday/fnd5.jpg" alt="Funny" />
                   <figcaption>
-                    <a href="resources/images/9.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                    <a href="resources/images/funnyday/fnd5.jpg" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Day</h4>
                     <h4 class="bn_BD_lan">মজার দিন</h4>
@@ -408,12 +595,24 @@
                   </figcaption>
                 </figure>
               </div>
-              
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel23.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel23.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="birthday">
                 <figure class="snip1321">
-                  <img src="resources/images/3.jpg" alt="Birthday" />
+                  <img src="resources/images/birthday/bd3.jpg" alt="Birthday" />
                   <figcaption>
-                    <a href="resources/images/3.jpg" data-lightbox="image-1" data-title="Birthday enjoy"><i
+                    <a href="resources/images/birthday/bd3.jpg" data-lightbox="image-1" data-title="Birthday enjoy"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Birthday Enjoy</h4>
                     <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
@@ -422,12 +621,76 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel22.JPG" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel22.JPG" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="birthday">
+                <figure class="snip1321">
+                  <img src="resources/images/birthday/bd4.jpg" alt="Birthday" />
+                  <figcaption>
+                    <a href="resources/images/birthday/bd4.jpg" data-lightbox="image-1" data-title="Birthday enjoy"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Birthday Enjoy</h4>
+                    <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
+                    <span class="en_USA_lan">Birthday Fun</span>
+                    <span class="bn_BD_lan">জন্মদিনের মজা</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel21.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel21.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="birthday">
+                <figure class="snip1321">
+                  <img src="resources/images/birthday/bd5.jpg" alt="Birthday" />
+                  <figcaption>
+                    <a href="resources/images/birthday/bd5.jpg" data-lightbox="image-1" data-title="Birthday enjoy"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Birthday Enjoy</h4>
+                    <h4 class="bn_BD_lan">জন্মদিন উপভোগ</h4>
+                    <span class="en_USA_lan">Birthday Fun</span>
+                    <span class="bn_BD_lan">জন্মদিনের মজা</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel20.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel20.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="family">
                 <figure class="snip1321">
-                  <img src="resources/images/14.jpg" alt="family" />
+                  <img src="resources/images/familyday/fd5.jpg" alt="family" />
                   <figcaption>
-                    <a href="resources/images/14.jpg" data-lightbox="image-1" data-title="Family Care"><i
+                    <a href="resources/images/familyday/fd5.jpg" data-lightbox="image-1" data-title="Family Care"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Family Tour</h4>
                     <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
@@ -436,12 +699,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel19.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel19.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/7.JPG" alt="Funny" />
+                  <img src="resources/images/funnyday/fnd6.jpg" alt="Funny" />
                   <figcaption>
-                    <a href="resources/images/7.JPG" data-lightbox="image-1" data-title="Funny day"><i
+                    <a href="resources/images/funnyday/fnd6.jpg" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Day</h4>
                     <h4 class="bn_BD_lan">মজার দিন</h4>
@@ -450,12 +725,24 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel18.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel18.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="family">
                 <figure class="snip1321">
-                  <img src="resources/images/13.jpg" alt="family" />
+                  <img src="resources/images/familyday/fd6.jpg" alt="family" />
                   <figcaption>
-                    <a href="resources/images/13.jpg" data-lightbox="image-1" data-title="Family Love"><i
+                    <a href="resources/images/familyday/fd6.jpg" data-lightbox="image-1" data-title="Family Love"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Family Care</h4>
                     <h4 class="bn_BD_lan">পারিবারিক যত্ন</h4>
@@ -464,12 +751,180 @@
                   </figcaption>
                 </figure>
               </div>
-
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel17.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel17.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
               <div class="isotope-item" data-type="funny">
                 <figure class="snip1321">
-                  <img src="resources/images/8.jpg" alt="Funny" />
+                  <img src="resources/images/funnyday/fnd7.jpg" alt="Funny" />
                   <figcaption>
-                    <a href="resources/images/8.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                    <a href="resources/images/funnyday/fnd7.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel16.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel16.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd8.jpg" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd8.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel15.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel15.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd9.jpg" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd9.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel14.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel14.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd10.jpg" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd10.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel13.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel13.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd11.jpg" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd11.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel12.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel12.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd12.jpg" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd12.jpg" data-lightbox="image-1" data-title="Funny day"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Funny Day</h4>
+                    <h4 class="bn_BD_lan">মজার দিন</h4>
+                    <span class="en_USA_lan">It's A Funny Day.</span>
+                    <span class="bn_BD_lan">এটি একটি মজার দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="travel">
+                <figure class="snip1321">
+                  <img src="resources/images/travelday/Travel11.jpg" alt="Travel" />
+                  <figcaption>
+                    <a href="resources/images/travelday/Travel11.jpg" data-lightbox="image-1" data-title="Travel Time"><i
+                        class="fa fa-search"></i></a>
+                    <h4 class="en_USA_lan">Family Tour</h4>
+                    <h4 class="bn_BD_lan">পারিবারিক সফর</h4>
+                    <span class="en_USA_lan">Travel Day</span>
+                    <span class="bn_BD_lan">ভ্রমণের দিন</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="isotope-item" data-type="funny">
+                <figure class="snip1321">
+                  <img src="resources/images/funnyday/fnd13.JPG" alt="Funny" />
+                  <figcaption>
+                    <a href="resources/images/funnyday/fnd13.JPG" data-lightbox="image-1" data-title="Funny day"><i
                         class="fa fa-search"></i></a>
                     <h4 class="en_USA_lan">Funny Day</h4>
                     <h4 class="bn_BD_lan">মজার দিন</h4>
